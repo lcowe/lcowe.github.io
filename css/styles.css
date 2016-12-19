@@ -181,7 +181,7 @@ iframe#video {
   height: 50% ;
 }
 
-section.cycle-slideshow {
+div.cycle-slideshow {
   float: left ;
   left: 200px ;
   margin: 320 1500 675 0 ;
@@ -541,6 +541,10 @@ div.sub-nav-button a:hover {
     text-decoration: none ;
     text-transform: uppercase ;
 }*/
+
+iframe#image-gallery {
+
+}
 
 /*for image gallery*/
 /*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
