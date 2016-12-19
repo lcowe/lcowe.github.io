@@ -97,13 +97,13 @@ h3#sub-title {
   font-size: 25px ;
   font-weight: normal ;
   color: #fff ;
-  line-height: inherit ;
-  float: right ;
-  margin-top: 500px ;
-  margin-left: 500px ;
-  /*position: absolute ;*/
-  /*left: 5px ;*/
-  clear: both ;
+  /*line-height: inherit ;*/
+  /*float: right ;*/
+  margin-top: 790 ;
+  margin-left: 600px ;
+  position: absolute ;
+  left: 5px ;
+  clear: none ;
 
 }
 
