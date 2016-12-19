@@ -181,13 +181,15 @@ iframe#video {
   height: 50% ;
 }
 
-div.cycle-slideshow {
+section.cycle-slideshow {
   float: left ;
   left: 200px ;
   margin: 320 1500 675 0 ;
   position: absolute ;
-  width: 50% ;
-  height: 50% ;
+  width: 100% ;
+  height: 100% ;
+  overflow-x: scroll ;
+  /*display: table-cell ;*/
 }
 
 form {
@@ -246,7 +248,7 @@ h4 {
   float: left ;
   width: 50% ;
   left: 200px ;
-  margin: 1000 1500 675 0 ;
+  margin: 1050 1500 675 0 ;
 }
 
 /*caption 2*/
@@ -260,7 +262,7 @@ h5 {
   float: left ;
   width: 50% ;
   left: 200px ;
-  margin: 1000 1500 675 0 ;
+  margin: 1050 1500 675 0 ;
   padding-top: 50px ;
 }
 
