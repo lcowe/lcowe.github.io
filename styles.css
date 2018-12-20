@@ -1,0 +1,305 @@
+body {
+  background-color: lightgray ;
+  border-color: white 3px ;
+  font-family: 'georgia', serif ;
+  font-weight: normal ;
+  max-width: 100% ;
+  min-width: 70% ;
+}
+
+a#name {
+  text-transform: none ;
+  font-family: georgia, times, serif ;
+  font-size: 19px ;
+  font-weight: normal ;
+  line-height: 25px ;
+  position: relative ;
+  padding-top: 8px ;
+  left: 3% ;
+  text-align: justify ;
+  color: black ;
+}
+
+a#name:hover {
+  color: black ;
+  text-decoration: none !important ;
+}
+
+a {
+  font-family: georgia, times, serif !important ;
+  font-weight: normal ;
+  font-size: 118px ;
+  line-height: 120px ;
+  color: black ;
+  text-transform: none ;
+  text-decoration: none ;
+}
+/*
+a:active {
+text-decoration: none;
+color: black ;
+}
+
+nav hover colors */
+a:hover#research-topic {
+  color: blue ;
+}
+a:hover#special-topic-a {
+  color: yellow ;
+}
+a:hover#special-topic-b {
+  color: magenta ;
+}
+a:hover#bibliography {
+  color: dimgray ;
+}
+
+/* nav active colors */
+a.about:active#research-topic {
+  color: blue ;
+}
+a.about:active#special-topic-a {
+  color: yellow ;
+  text-decoration: none;
+}
+a.about:active#special-topic-b {
+  color: magenta ;
+  text-decoration: none;
+}
+a.about:active#bibliography {
+  color: dimgray ;
+  text-decoration: none;
+}
+
+/* nav here colors */
+a.about.here#research-topic {
+  color: blue ;
+}
+a.about.here#special-topic-a {
+  color: yellow ;
+}
+a.about.here#special-topic-b {
+  color: magenta ;
+}
+a.about.here#bibliography {
+  color: dimgray ;
+}
+
+header p {
+  float: left ;
+  width: 15.3% ;
+  position: relative ;
+  clear: both ;
+  padding-left: 32px ;
+  margin-bottom: 54px ;
+}
+
+nav {
+  float: left ;
+  width: 15.3% ;
+  height: 540px ;
+  position: relative ;
+  clear: both ;
+}
+
+a.link {
+  color: black ;
+  font-family: monospace, sans-serif !important ;
+  font-size: 14px ;
+  line-height: 25px ;
+  font-weight: normal ;
+  /* text-transform: uppercase ; */
+  text-decoration: underline ;
+
+  /*resume-color: rgb(41,13,255)*/
+}
+
+a.link:hover {
+  color: black ;
+  text-decoration: none ;
+  /*text-decoration: line-through ;*/
+}
+
+/*div p a {
+color: black ;
+text-transform: lowercase ;
+font-size: 14px ;
+font-family: avenir, sans-serif ;
+font-weight: 500 ;
+clear: both ;
+position: relative;
+}
+
+div p a:hover {
+color: #B30F2A ;
+background-color: white ;
+text-decoration: none ;
+}*/
+
+/*#caption-link {
+color: gray ;
+font-size: 12.8px ;
+font-family: avenir, sans-serif ;
+letter-spacing: normal;
+font-weight: normal ;
+text-transform: none ;
+}
+
+#caption-link:hover {
+color: black ;
+background-color: white ;
+text-decoration: none ;
+}*/
+
+/*p {
+font-size: 30px ;
+}*/
+
+section {
+  float: right ;
+  width: 79% ;
+  margin-left: 1.1% ;
+  margin-bottom: 0px ;
+  overflow-x: scroll ;
+  position: relative ;
+}
+
+section article {
+  display: table-cell ;
+}
+
+/*below most likely not in use for this version of site*/
+section article.artiststatement {
+  vertical-align: top ;
+  padding-top: 22px ;
+}
+
+section article.artiststatement p {
+  width: 400px ;
+  margin-right: 3em ;
+  line-height: 1.5em ;
+}
+
+section article img.float_left_image {
+  margin-right: 3.5em ;
+  pointer-events: none ;
+}
+
+section article p {
+  font-family: monospace, sans-serif ;
+  font-size: 0.7em ;
+}
+
+section .bio p {
+  font-family: monospace, sans-serif ;
+  font-size: 14px ;
+  line-height: 25px ;
+  font-weight: normal ;
+  max-height: 100% ;
+  color: black ;
+  text-transform: none ;
+  /*padding-top: 5px ;*/
+}
+
+section p.bio_title {
+  font-weight: 600 ;
+  font-size: 25px ;
+  text-transform: uppercase ;
+}
+
+section article p.title {
+  font-family: monospace, sans-serif ;
+  line-height: 22px ;
+  font-weight: 500 ;
+  font-size: 17px ;
+  text-transform: lowercase ;
+  margin-top: -10px ;
+  max-height: 544px ;
+  color: #B30F2A ;
+}
+
+section article p.tagline {
+  font-family: monospace, sans-serif ;
+  font-size: 14px ;
+  line-height: 22px ;
+  font-weight: 200 ;
+}
+
+section article p.photo_caption {
+  font-family: monospace, sans-serif ;
+  font-size: 13px ;
+  font-style: italic ;
+  margin-bottom: 1.3em;
+}
+
+img.float_left_image {
+  margin-bottom: 0px ;
+}
+
+section p.title {
+  font-family: monospace, sans-serif ;
+  line-height: 22px ;
+  font-weight: 500 ;
+  font-size: 17px ;
+  text-transform: uppercase ;
+  color: #B30F2A ;
+}
+/*end comment*/
+
+
+section.bio {
+  width: 48% ;
+}
+
+p#about {
+  width: 325px ;
+  margin-left: 500px ;
+  margin-right: 160px ;
+  margin-top: 0 ;
+  height: 80% ;
+  position: relative ;
+  clear: both ;
+  float: right ;
+}
+
+object {
+  padding-top: 22px ;
+}
+
+li {
+  font-family: georgia, times, serif ;
+  text-transform: none ;
+  text-decoration: none ;
+  list-style: none !important ;
+}
+
+/*img#homeimage {
+clear: both;
+width: 70% ;
+margin-left: 200px ;
+margin-bottom: 100px ;
+position: relative ;
+}*/
+
+footer {
+  clear: both ;
+  position: absolute ;
+  float: left ;
+  width: 100% ;
+  height: 30px ;
+  padding: 12px ;
+  margin-left: 3% ;
+  bottom: 0 !important ;
+  font-family: monospace, sans-serif ;
+  font-size: 12px ;
+  line-height: 15px ;
+  font-weight: normal ;
+  text-transform: uppercase ;
+  text-decoration: none ;
+  color: dimgray ;
+  /* letter-spacing: -.1px ; */
+}
+
+div ul {
+  min-width: 600px ;
+}
